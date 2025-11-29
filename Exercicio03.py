@@ -56,6 +56,7 @@ def carregar_dados(arquivo="outputTP1.txt"):
         return [linha.strip() for linha in file.readlines() if linha.strip()]
 
 
+
 def main():
     dados = carregar_dados()
     print(f"Carregados {len(dados)} nomes de arquivos")
